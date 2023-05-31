@@ -40,7 +40,30 @@
 }
 ```
 
+## Full Code
+```css
+@media (max-width: 575.98px) {
+    /* Styles for extra small devices */ 
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    /* Styles for small devices */ 
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*Styles for medium devices*/ 
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*Styles for large devices*/ 
+}
+
+@media (min-width: 1200px) {
+    /*Styles for extra large devices*/ 
+}
+```
+
 ---
-> These breakpoints are based on the Bootstrap      framework's default breakpoints, which are widely adopted in responsive web design.
+> These breakpoints are based on the Bootstrap framework's default breakpoints, which are widely adopted in responsive web design.
 However, it's important to note that breakpoints can vary depending on the specific design requirements of your project.
 You can customize and add additional breakpoints based on your needs.
