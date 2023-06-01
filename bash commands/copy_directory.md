@@ -6,7 +6,7 @@ cp -r <source_folder> <destination_folder>
 
 Explanation:
 
-`cp`: The command for copying files and directories.
-`-r`: The option to copy directories recursively, including all subdirectories and files.
-`<source_folder>`: The path to the folder you want to copy.
-`<destination_folder>`: The path to the location where you want to copy the folder.
+- `cp`: The command for copying files and directories.
+- `-r`: The option to copy directories recursively, including all subdirectories and files.
+- `<source_folder>`: The path to the folder you want to copy.
+- `<destination_folder>`: The path to the location where you want to copy the folder.
