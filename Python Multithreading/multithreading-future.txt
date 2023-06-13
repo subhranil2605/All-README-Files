@@ -1,3 +1,6 @@
+# Python multi threading to execute a function in multiple threads
+
+```python
 import concurrent.futures
 
 def func(*args, **kwargs):
@@ -14,3 +17,4 @@ def func(*args, **kwargs):
 
 def main():
     func(arg1, arg2, arg3)
+```
