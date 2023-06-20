@@ -6,6 +6,10 @@ Use `computed_zorder` to be `False` while creating figure.
 
 Here is an example 👇
 ```python
+import matplotlib
+import matplotlib.pyplot as plt
+from mpl_toolkits.mplot3d import Axes3D
+
 fig: plt.Figure
 ax: Axes3D
 fig, ax = plt.subplots(subplot_kw={"projection": "3d", "computed_zorder": False})
