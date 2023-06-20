@@ -26,3 +26,5 @@ ax.scatter(25,35,4, c='k', depthshade=False, alpha = 1, s=100)
 
 plt.show()
 ```
+### Reference
+[Matplotlib surface plot hides scatter points which should be in front - StackOverflow](https://stackoverflow.com/questions/51241367/matplotlib-surface-plot-hides-scatter-points-which-should-be-in-front)
