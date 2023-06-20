@@ -2,7 +2,7 @@
 
 ### Problem: A point gets hidden in a surface plot.
 ### Solution:
-Use `computed_zorder` to be `False while creating figure.
+Use `computed_zorder` to be `False` while creating figure.
 
 Here is an example 👇
 ```python
